@@ -29,7 +29,13 @@ export default function Hackathons() {
           >
             <div className="space-y-4">
               <div className="flex flex-wrap items-center justify-between gap-2">
-                <span className="rounded-full border border-amber-400/20 bg-amber-400/10 px-3 py-0.5 text-[11px] font-semibold text-amber-400">
+                <span
+                  className={`rounded-full border px-3 py-0.5 text-[11px] font-semibold ${
+                    h.badge.includes('Organizing')
+                      ? 'border-emerald-500/30 bg-emerald-500/10 text-emerald-400'
+                      : 'border-amber-400/20 bg-amber-400/10 text-amber-400'
+                  }`}
+                >
                   {h.badge}
                 </span>
                 <span className="text-xs font-mono text-muted-foreground">{h.year}</span>
@@ -39,7 +45,10 @@ export default function Hackathons() {
                 <h2 className="font-display-lg text-xl sm:text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
                   {h.title}
                 </h2>
-                <p className="text-xs font-medium text-primary mt-1">{h.organizer}</p>
+                <div className="flex flex-wrap items-center gap-2 mt-1">
+                  <span className="text-xs font-semibold text-primary">{h.organizer}</span>
+                  <span className="text-xs text-muted-foreground">· {h.role}</span>
+                </div>
                 <div className="mt-1 text-xs text-muted-foreground font-mono">
                   Project: <strong className="text-foreground">{h.projectBuilt}</strong>
                 </div>

@@ -344,42 +344,44 @@ export const PORTFOLIO = {
 
   hackathons: [
     {
+      id: 'brainwave-hackathon',
+      title: 'BrainWave Hackathon',
+      organizer: 'OptSkill.community',
+      role: 'Lead Organizer & Platform Developer',
+      year: 'Upcoming (2026 – 2027)',
+      badge: 'Upcoming · Organizing',
+      projectBuilt: 'BrainWave Hackathon Portal & Integrated Admin Panel',
+      description:
+        'Leading and organizing the upcoming BrainWave Hackathon under OptSkill.community. Personally engineered the official full-stack hackathon portal and admin management system to orchestrate team registrations, problem statement releases, and live event workflows.',
+      highlights: [
+        'Lead Organizer directing the upcoming hackathon event structure, themes, and community outreach',
+        'Engineered custom registration portal with optimistic state synchronization and validation',
+        'Built secure admin control dashboard with problem statement reveals and participant tracking',
+        'Created 1-click startup automation and port-freeing launcher for offline event operations'
+      ],
+      tech: ['JavaScript', 'HTML5', 'CSS3', 'Node.js', 'REST APIs', 'Admin UI'],
+      links: []
+    },
+    {
       id: 'neofuture-hackathon',
       title: 'NeoFuture Hackathon',
       organizer: 'L.R. Tiwari College of Engineering, Mumbai',
-      role: 'Project Lead & Developer',
+      role: 'Participant & Project Lead',
       year: '2025 – 2026',
-      badge: 'Presented Prototype',
+      badge: 'Participant · Presented Project',
       projectBuilt: 'MedAI — Smart Hospital Management System',
       description:
-        'Engineered and presented MedAI, an offline-first accessible and preventive healthcare platform designed for rural clinics with intermittent connectivity. Features real-time doctor-patient messaging, nearest hospital discovery, and Python FastAPI ML disease prediction.',
+        'Participated in the competitive NeoFuture Hackathon organized by L.R. Tiwari College of Engineering, building and presenting MedAI — an offline-first accessible and preventive healthcare platform designed for rural clinics with intermittent or absent connectivity.',
       highlights: [
-        'Presented project to jury at NeoFuture Hackathon (L.R. Tiwari College of Engineering)',
-        'Built offline-first synchronization architecture for low-connectivity environments',
-        'Integrated FastAPI machine learning service for early symptom & disease prediction'
+        'Participated and presented live prototype to technical jury at L.R. Tiwari College of Engineering',
+        'Implemented offline-first synchronization enabling clinic operation without internet',
+        'Integrated Python FastAPI machine learning microservice for disease prediction',
+        'Built real-time doctor-patient messaging using Socket.io'
       ],
       tech: ['React.js', 'Express.js', 'FastAPI', 'MongoDB', 'Socket.io', 'PWA'],
       links: [
         { label: 'View MedAI on GitHub', url: 'https://github.com/jeet9108/MedAI' }
       ]
-    },
-    {
-      id: 'brainwave-hackathon',
-      title: 'BrainWave Hackathon Portal',
-      organizer: 'BrainWave Innovation Challenge',
-      role: 'Full-Stack Developer',
-      year: '2026',
-      badge: 'Platform Engineering',
-      projectBuilt: 'BrainWave Hackathon Portal & Integrated Admin Panel',
-      description:
-        'Engineered an event management platform and registration portal featuring pre-event problem statement reveals, optimistic sync for registration toggles, and isolated admin dashboards.',
-      highlights: [
-        'Designed registration workflows with optimistic state synchronization',
-        'Built secure admin control panel with schedule toggles and problem statement releases',
-        'Engineered 1-click startup automation and port-freeing launcher'
-      ],
-      tech: ['JavaScript', 'HTML5', 'CSS3', 'Node.js', 'REST APIs'],
-      links: []
     }
   ],
 
