@@ -299,7 +299,7 @@ export const PORTFOLIO = {
     {
       group: 'Web & Full-Stack',
       icon: 'language',
-      items: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Express.js', 'Node.js', 'PWA']
+      items: ['HTML5', 'CSS3', 'JavaScript', 'React.js', 'Express.js', 'Node.js']
     },
     {
       group: 'Machine Learning & AI',
