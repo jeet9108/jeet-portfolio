@@ -34,6 +34,13 @@ export default function CommandPalette({ open, onClose }) {
       },
       {
         group: 'Navigation',
+        label: 'Hackathons',
+        desc: `${PORTFOLIO.hackathons.length} hackathon builds & challenges`,
+        icon: 'emoji_events',
+        action: () => navigate('/hackathons')
+      },
+      {
+        group: 'Navigation',
         label: 'Experience',
         desc: `${PORTFOLIO.experience.length} leadership & internship roles`,
         icon: 'work',

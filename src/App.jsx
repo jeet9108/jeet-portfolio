@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Hackathons from './pages/Hackathons';
 import Experience from './pages/Experience';
 import Certifications from './pages/Certifications';
 import Skills from './pages/Skills';
@@ -48,6 +49,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/hackathons" element={<Hackathons />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="/skills" element={<Skills />} />

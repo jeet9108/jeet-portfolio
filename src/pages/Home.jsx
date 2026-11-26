@@ -207,13 +207,13 @@ export default function Home() {
 
             <button
               type="button"
-              onClick={() => navigate('/projects')}
+              onClick={() => navigate('/hackathons')}
               className="flex flex-col items-start gap-1 p-3.5 bg-background border border-border rounded-xl cursor-pointer hover:border-primary/60 hover:bg-surface-elevated transition-all group text-left"
             >
               <span className="text-2xl sm:text-3xl font-display-lg font-bold text-amber-400 group-hover:text-primary transition-colors">
-                1
+                {PORTFOLIO.hackathons.length}
               </span>
-              <span className="text-xs text-muted-foreground">Hackathon Build</span>
+              <span className="text-xs text-muted-foreground">Hackathons</span>
             </button>
           </div>
         </motion.div>

@@ -342,6 +342,47 @@ export const PORTFOLIO = {
     }
   ],
 
+  hackathons: [
+    {
+      id: 'neofuture-hackathon',
+      title: 'NeoFuture Hackathon',
+      organizer: 'L.R. Tiwari College of Engineering, Mumbai',
+      role: 'Project Lead & Developer',
+      year: '2025 – 2026',
+      badge: 'Presented Prototype',
+      projectBuilt: 'MedAI — Smart Hospital Management System',
+      description:
+        'Engineered and presented MedAI, an offline-first accessible and preventive healthcare platform designed for rural clinics with intermittent connectivity. Features real-time doctor-patient messaging, nearest hospital discovery, and Python FastAPI ML disease prediction.',
+      highlights: [
+        'Presented project to jury at NeoFuture Hackathon (L.R. Tiwari College of Engineering)',
+        'Built offline-first synchronization architecture for low-connectivity environments',
+        'Integrated FastAPI machine learning service for early symptom & disease prediction'
+      ],
+      tech: ['React.js', 'Express.js', 'FastAPI', 'MongoDB', 'Socket.io', 'PWA'],
+      links: [
+        { label: 'View MedAI on GitHub', url: 'https://github.com/jeet9108/MedAI' }
+      ]
+    },
+    {
+      id: 'brainwave-hackathon',
+      title: 'BrainWave Hackathon Portal',
+      organizer: 'BrainWave Innovation Challenge',
+      role: 'Full-Stack Developer',
+      year: '2026',
+      badge: 'Platform Engineering',
+      projectBuilt: 'BrainWave Hackathon Portal & Integrated Admin Panel',
+      description:
+        'Engineered an event management platform and registration portal featuring pre-event problem statement reveals, optimistic sync for registration toggles, and isolated admin dashboards.',
+      highlights: [
+        'Designed registration workflows with optimistic state synchronization',
+        'Built secure admin control panel with schedule toggles and problem statement releases',
+        'Engineered 1-click startup automation and port-freeing launcher'
+      ],
+      tech: ['JavaScript', 'HTML5', 'CSS3', 'Node.js', 'REST APIs'],
+      links: []
+    }
+  ],
+
   pillars: [
     {
       icon: 'terminal',

@@ -3,3 +3,5 @@ dist/
 .env
 projects/
 *.log
+
+.vercel

@@ -10,8 +10,9 @@ export default function Navbar({ onOpenCommand }) {
     { href: '/', label: 'Home' },
     { href: '/about', label: 'About' },
     { href: '/projects', label: 'Projects', count: PORTFOLIO.projects.length },
+    { href: '/hackathons', label: 'Hackathons', count: PORTFOLIO.hackathons.length, highlight: true },
     { href: '/experience', label: 'Experience' },
-    { href: '/certifications', label: 'Certs', count: PORTFOLIO.certifications.length, highlight: true },
+    { href: '/certifications', label: 'Certs', count: PORTFOLIO.certifications.length },
     { href: '/skills', label: 'Skills' },
     { href: '/education', label: 'Education' }
   ];
